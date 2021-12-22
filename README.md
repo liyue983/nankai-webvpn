@@ -1,8 +1,14 @@
 # 登录到南开大学 webvpn
 
-通过该模块可以登录到南开大学的 [webvpn](https://webvpn.nankai.edu.cn/)，以便使用校园网代理进行页面访问。
+通过该模块可以登录到南开大学 [webvpn](https://webvpn.nankai.edu.cn/)，同时可以利用 webvpn 访问一些校内网站。
 
-[程序使用示例](example.py)：
+使用前确保有 pycryptodome 和 requests 这两个库，可以通过下面的命令安装
+
+```shell
+pip install -r requirements.txt
+```
+
+[示例](example.py)：
 
 ```python
 from webvpn import Webvpn

@@ -26,3 +26,9 @@ name = p.findall(w.content.decode('UTF-8'))
 if name:
     print('你好，',name[0])
 ```
+
+`vpn.login()`用于登录到 webvpn
+
+`vpn.get()`发起 get 请求，可以传入的参数与 requests.get() 一致，比如 headers，params 等
+
+其他还有`vpn.post()`和`vpn.request()`，使用方法和 requests 一致。

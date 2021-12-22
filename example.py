@@ -13,4 +13,3 @@ p = re.compile('姓名：</td>.*?<td>(.+?)</td>', re.S)
 name = p.findall(w.content.decode('UTF-8'))
 if name:
     print('你好，', name[0])
-a = 1

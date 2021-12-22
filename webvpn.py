@@ -17,7 +17,7 @@ sso_load_uri = '/sso/loadcode'
 sso_login_uri = '/sso/login'
 
 
-class Webvpn:
+class WebVPN:
     def __init__(self, user=None, pasw=None) -> None:
         if user and pasw:
             self.login(user, pasw)

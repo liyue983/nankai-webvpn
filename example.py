@@ -1,10 +1,10 @@
-from webvpn import Webvpn
+from webvpn import WebVPN
 import re
 
 user = ''
 pasw = ''
 
-vpn = Webvpn()
+vpn = WebVPN()
 vpn.login(user, pasw)
 vpn.get('http://eamis.nankai.edu.cn/eams/homeExt.action')
 w = vpn.get(
